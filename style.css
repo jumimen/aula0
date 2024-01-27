@@ -186,7 +186,7 @@ td,th{
 }
 .mapa{
     padding: 3em 0;
-    background: linear-gradient(orange, #888888,blue);
+    background: linear-gradient(#fefefe, #888888);
 }
 .mapa p{
     margin: 0 0 2em;
@@ -211,6 +211,9 @@ td,th{
 }
 .items{
     line-height: 1.5;
+}
+.items:before{
+    content:"★";
 }
 .items:first-child{
     font-weight: bold;
